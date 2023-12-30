@@ -32,25 +32,27 @@ button{
 }
 .scroll_container {
     width: 35%;
-     height:100vh;
+     height: 500px;
      overflow: hidden;
      overflow-clip-margin: content-box;
-     position: relative;
+     position:relative;
+     align-self: center;
 }
 
  .img_container{ 
       right: 1rem;
      width: 35%;
      height: auto;
-     transform: translateY(0%);
-     animation: scroll 30s linear infinite;
-     
+     transform: translateY(0% -90%);
+     animation: scroll 10s linear 0s infinite;
+    
  }
 img{
     background-position-x: center;
     width: 500px;
     /* margin-top: 15px; */
     overflow-clip-margin: content-box;
+    border: 5px solid black;
 
 }
  @keyframes scroll {
