@@ -1,6 +1,6 @@
 .backgrd_img{
     background-color: grey;
-    height:700px;
+    height:100vh;
     width: 100%;
     border-radius: 2px;
     display: flex;
@@ -31,8 +31,8 @@ button{
     color: black;
 }
 .scroll_container {
-    width: 500px;
-     height: 100%;
+    width: 35%;
+     height:100vh;
      overflow: hidden;
      overflow-clip-margin: content-box;
      position: relative;
@@ -40,7 +40,7 @@ button{
 
  .img_container{ 
       right: 1rem;
-     width: 500px;
+     width: 35%;
      height: auto;
      transform: translateY(0%);
      animation: scroll 30s linear infinite;
@@ -49,7 +49,7 @@ button{
 img{
     background-position-x: center;
     width: 500px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     overflow-clip-margin: content-box;
 
 }
