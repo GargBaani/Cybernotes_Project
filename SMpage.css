@@ -5,9 +5,7 @@
     background: white;
     color: black;
     font-family:  sans-serif;
-    /* background-image: url("https://www.pngmart.com/files/7/SEO-PNG-Clipart.png");
-    background-size: contain; */
-    background-repeat: no-repeat;
+    display: flex;
 
 } 
 a {
@@ -17,10 +15,6 @@ a {
   .social {
     position: relative;
     top: 6.5%;
-    
-    
-    
-    /* left: 0.3%; */
     display: flex;
 
   }
@@ -90,35 +84,22 @@ a {
     height:62.5vh;
     width: 50vw;
     display:inline;
-    /* position: initial; */
-    /* border: 2px solid black; */
-    /* display:none; */
-    /* justify-content:space-between; */
     align-self:flex-start;
-    /* margin: 25px */
-    /* margin-right :105px; */
     margin-top: 15px;
-    /* position: relative; */
-    /* left: 2%; */
   }
   .B23{
-    /* display: flex;
-    justify-content: space-evenly; */
     width:45vw;
     height: 10vh;
     border: 2px solid black;
     border-radius: 5%;
     font-size: 40px;
-    /* padding-right :15px;
-    margin-right: 100px; */
     align-self: 2px;;
 
   }
   .image23{
-    /* border: 2px solid black; */
     position: relative;
-    height: 500px;
-    width: 500px;
+    height: 50vh;
+    width: 26vw;
     margin-right: 5px;
     top: 5%;
     display:flex;
@@ -126,109 +107,54 @@ a {
   }
   img{
     background-size:cover;
-    height: 400px;
-    width: 400px;
+    height: 40vh;
+    width: 21vw;
   }
   h1{
     font-size: 3rem;
   }
-  .box123:hover{
-    animation: a 2s linear 0.1s infinite ;
+  .img-sec23{
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
-  @keyframes a{
-    0%{
-        background-color: rgb(215, 208, 208);
-    }
-    25%{
-        background-color: #f1d6df;
-    }
-    50%{
-        background-color: #f2adc4;
-    }
-    75%{
-        background-color: #f395b4;
-    }
-    100%{
-        background-color: #f585aa;
-    }
+  .img23{
+    background-image: url("https://digitalcatalyst.in/images/services/best-seo-agency-in-hyderabad.png");
+    background-size: cover;
+    height: 66vh;
+    width: 40vw;
   }
-  .box223:hover{
-    animation: b 2s linear 0.1s infinite ;
+  .seo-logo23{
+    font-size: 50px;
+   
   }
-  @keyframes b{
-    0%{
-        background-color: #d8d6db;
-    }
-    25%{
-        background-color: #827891;
-    }
-    50%{
-        background-color: #7e6e94;
-    }
-    75%{
-        background-color: #715c92;
-    }
-    100%{
-        background-color: #6e5494;
-    }
+  .seo-img2{
+    position: absolute;
+    height: 35vh;
+    width: 20vw;
+    background-color: #229ED9;
+    left: 800px;
+    top: 100px;
   }
-  .box323:hover{
-    animation: c 2s linear 0.1s infinite;
+  .seo-img1{
+    position: absolute;
+    height: 35vh;
+    width: 21vw;
+    z-index: 1;
+    background-color: #715c92;
+    left: 400px;
   }
-  @keyframes c{
-    0%{
-        background-color: #daeff9;
-    }
-    25%{
-        background-color: #8db3c4;
-    }
-    50%{
-        background-color: #6aa6c3;
-    }
-    75%{
-        background-color: #5badd4;
-    }
-    100%{
-        background-color: #229ED9;
-    }
+  
+  .content-of-img{
+    position: absolute;
+    top: 68vh;
+    left: 68vw;
+    font-size: 47px;
   }
-  .box423:hover{
-    animation: d 2s linear 0.1s infinite;
+  .seo-content23{
+    position: absolute;
+    top: 65vh;
+    left: 10vw;
+    font-size: 40px;
   }
-  @keyframes d{
-    0%{
-        background-color: rgb(232, 225, 213);
-    }
-    25%{
-        background-color: rgb(222, 201, 163);
-    }
-    50%{
-        background-color: rgb(220, 184, 118);
-    }
-    75%{
-        background-color: rgb(227, 177, 85);
-    }
-    100%{
-        background-color: rgb(230, 173, 66);
-    }
-  }
-  .box523:hover{
-    animation: e 2s linear 0.1s infinite;
-  }
-  @keyframes e{
-    0%{
-        background-color: rgb(226, 236, 229);
-    }
-    25%{
-        background-color: rgb(156, 212, 174);
-    }
-    50%{
-        background-color: rgb(127, 224, 158);
-    }
-    75%{
-        background-color: rgb(89, 226, 133);
-    }
-    100%{
-        background-color: rgb(66, 230, 118);
-    }
-  }
+  
