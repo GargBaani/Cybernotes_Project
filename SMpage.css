@@ -12,7 +12,8 @@ a {
   }
   .social {
     position: relative;
-    top: 15%;
+    top: 7.5%;
+    display: flex;
   }
   .social ul {
     padding: 0px;
@@ -75,4 +76,18 @@ a {
   .heading23 h1{
     font-size: 100px;
     margin: 20px;
+  }
+.sites_detail{
+    height:62.5vh;
+    width: 50vw;
+    /* border: 2px solid black; */
+    display: block;
+    justify-content:space-between;
+  }
+  .B23{
+    /* display: flex;
+    justify-content: space-evenly; */
+    width:50vw;
+    height: 10vh;
+    border: 2px solid black;
   }
