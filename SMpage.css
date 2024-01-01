@@ -6,6 +6,7 @@
     color: black;
     font-family:  sans-serif;
     display: flex;
+    background-color: #f2f1eb;
 
 } 
 a {
@@ -123,6 +124,8 @@ a {
     background-size: cover;
     height: 66vh;
     width: 40vw;
+    position: absolute;
+    top: 10vh;
   }
   .seo-logo23{
     font-size: 50px;
@@ -133,10 +136,10 @@ a {
     height: 35vh;
     width: 23vw;
     background-color: #229ED9;
-    left: 750px;
-    top: 100px;
+    left: 35.5vw;
+    top: 7vh;
     z-index: 1;
-    border: 2px solid transparent;
+    border: 2px solid black;
     border-radius: 1.5%;
   }
   .seo-img1{
@@ -144,14 +147,15 @@ a {
     height: 35vh;
     width: 25vw;
     background-color: #715c92;
-    left: 270px;
-    border: 2px solid transparent;
+    top: 2vh;
+    left: 10vw;
+    border: 2px solid black;
     border-radius: 1.5%;
   }
   
   .content-of-img{
     position: absolute;
-    top: 68vh;
+    top: 72vh;
     left: 68vw;
     font-size: 47px;
   }
