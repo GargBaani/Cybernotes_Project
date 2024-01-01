@@ -131,18 +131,22 @@ a {
   .seo-img2{
     position: absolute;
     height: 35vh;
-    width: 20vw;
+    width: 23vw;
     background-color: #229ED9;
-    left: 800px;
+    left: 750px;
     top: 100px;
+    z-index: 1;
+    border: 2px solid transparent;
+    border-radius: 1.5%;
   }
   .seo-img1{
     position: absolute;
     height: 35vh;
-    width: 21vw;
-    z-index: 1;
+    width: 25vw;
     background-color: #715c92;
-    left: 400px;
+    left: 270px;
+    border: 2px solid transparent;
+    border-radius: 1.5%;
   }
   
   .content-of-img{
@@ -157,4 +161,5 @@ a {
     left: 10vw;
     font-size: 40px;
   }
+
   
