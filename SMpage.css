@@ -9,7 +9,7 @@
 .heading_23{
   font-size: 110px;
   margin: 15px;
-  background: linear-gradient(180deg, orange, white);
+  background: linear-gradient(180deg, skyblue, white);
   color: transparent;
   background-clip:text;
 }
@@ -93,7 +93,4 @@ a {
 }
 .emo_23 li{
   font-size: 35px; 
-  background: linear-gradient(180deg, pink, white);
-  color: transparent;
-  background-clip:text;
 }
