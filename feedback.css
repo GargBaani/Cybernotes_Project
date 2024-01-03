@@ -122,3 +122,14 @@
 .rating input:checked~label:after {
 opacity: 1;
 }
+.subbut23{
+    position: relative;
+    left: 24vw ;
+    top: 4.5vw;
+    height: 3vw;
+    width: 5.4vw;
+    font-size: 18px;
+}
+.subbut23:hover{
+    background-color: aqua;
+}
