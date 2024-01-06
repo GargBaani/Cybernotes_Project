@@ -1,10 +1,10 @@
 .feedback{
     height: 90vh;
     width: 100%;
-    background-color: black;
-    background-image: url("");
+    /* background-color: black; */
+    background-image: url("https://wallpapercave.com/wp/wp8483171.png");
     background-size: cover;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
