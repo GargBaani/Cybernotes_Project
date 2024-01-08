@@ -12,10 +12,10 @@
 .feedback_body{
     height: 85vh;
     width: 30vw;
-    border: 2px solid aqua;
+    border: 2px solid #009688;
     border-radius: 5px;
     /* background-color:; */
-    box-shadow: 0 0 55px aqua;
+    box-shadow: 0 0 55px #009688;
     color: white;
     background-color: black;
 
@@ -109,7 +109,7 @@
    font-family: fontAwesome;
    display: block;
    font-size: 40px;
-   color: aqua;
+   color: #009688;
    position: absolute;
    top: 0;
    opacity:0;
@@ -130,5 +130,5 @@ opacity: 1;
     font-size: 18px;
 }
 .subbut23:hover{
-    background-color: aqua;
+    background-color: #009688;
 }
