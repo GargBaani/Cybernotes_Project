@@ -290,8 +290,7 @@ button{
       right: 1rem;
      width: 100%;
      height: auto;
-     transform: translateY(0% -90%);
-     animation: scroll_baani 15s linear 0s infinite;
+     animation: scroll_baani 15s linear 0s infinite alternate;
      border-right: 1vw solid black;
  }
 .img_baani{
@@ -303,7 +302,7 @@ button{
 }
  @keyframes scroll_baani {
      0% { transform: translateY(0%); }
-     100% { transform: translateY(-100%); }
+     100% { transform: translateY(-75%); }
  }
  
  button:hover{
@@ -482,7 +481,6 @@ margin-left:15vw;
     margin-left: 8vw;
     height:auto;
     width:100%;
-     
     font-size:5vh;
     margin-bottom:10vh;
     text-align: left;
