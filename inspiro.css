@@ -1513,7 +1513,7 @@ margin-bottom:15px;
                 }
 /* baani */
 
-                .education{
+                 .education{
                     background-color: #f8e3bf;
                     width: 100%;
                     height: 110vh;
@@ -1589,9 +1589,22 @@ margin-bottom:15px;
                     background-color: white;
                     max-width: fit-content;
                     position: relative;
-                    left: 40vw;
+                    left: 38vw;
                     font-size: 22px;
                     z-index: 100;
                     top: -15px;
                 }
+
+               #edu_content23 {
+                background-color:#f6f4f1 ;
+               width:54vw;
+                height: 15vh;
+                position: relative;
+                left: -0.5vw;
+                top: 35vw;
+                align-content: end;
+                font-size: 20px;
+                border-radius: 15px;
+
+               }
                 
