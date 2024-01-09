@@ -67,7 +67,6 @@
 .financeimg4{
     height: 18vw;
     width: 15vw;
-    background-color:;
     position: relative;
     left: 36vw;
     top: -5vw;
@@ -80,7 +79,7 @@
     font-size: 18px;
     position: relative;
     top: 1vw;
-    background-color: white;
+    background-color: rgb(255, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
 
