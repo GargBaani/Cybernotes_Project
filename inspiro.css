@@ -1511,7 +1511,7 @@ margin-bottom:15px;
                 .subbut23:hover{
                     background-color: #009688;
                 }
-/* baani */
+/* baani education */
 
                  #education{
                     background-color: #f8e3bf;
@@ -1556,10 +1556,10 @@ margin-bottom:15px;
                     background-image: url("https://www.businesscoachchicago.com/wp-content/uploads/2018/07/education.jpg");
                     background-size: cover;
                     height:32vh;
-                    width: 31vw;
+                    width: 35vw;
                     position: relative;
                     border-radius: 10px;
-                    left: 10vw;
+                    left: 8vw;
                     top: 10vw;
                     transition: all 0.2s ease 0s;
                 }
@@ -1597,10 +1597,10 @@ margin-bottom:15px;
 
                #edu_content23 {
                 /* background-color:#f6f4f1 ; */
-               width:54vw;
+               width:49vw;
                 height: 15vh;
                 position: relative;
-                left: -0.5vw;
+                left: -0.2vw;
                 top: 35vw;
                 align-content: end;
                 font-size: 20px;
@@ -1674,17 +1674,17 @@ margin-bottom:15px;
                 height: 18vw;
                 width: 25vw;
                 position: relative;
-                left: 10vw;
+                left: 8.5vw;
                 top: 13.5vw;
                 border-radius: 15px;
                 transition: all 0.2s ease 0s;
             
             }
             .financeimg4{
-                height: 18vw;
+                height: 20vw;
                 width: 15vw;
                 position: relative;
-                left: 36vw;
+                left: 34vw;
                 top: -5vw;
                 border-radius: 15px;
                 transition: all 0.2s ease 0s;
