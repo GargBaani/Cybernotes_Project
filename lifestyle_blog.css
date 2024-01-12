@@ -1,0 +1,84 @@
+.lifestyle_body{
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+}
+.life_heading{
+    color: white;
+    padding: 5vw;
+}
+.life_heading h1{
+    text-align: center;
+    font-size: 65px;
+}
+.life_heading span{
+    text-align: center;
+    font-size: 35px;
+    margin-left: 30vw;
+}
+.lifedate{
+    color: white;
+    text-align:center;
+    position: relative;
+    top: 5vw;
+    left: 25vw;
+}
+.readlife{
+    color: white;
+    text-align:right;
+    margin-right: 3vw;
+    padding-top: 3vw;
+}
+.lifesociallinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+   
+}
+.lifesociallinks a{
+    color: white;
+    text-decoration: none;
+}
+.lifesociallinks div{
+    background-color: black;
+    border: .5px solid white;
+    transform: scale(1.5);
+    margin: 1vw;
+    padding: .5vw;
+    border-radius: 50%;
+    height: 2vh;
+    width: 2vh;
+    position: relative;
+    bottom:3.5vw;
+    padding-top: 0.3vw;
+}
+.mainbody_life{
+    /* border: 2px solid black; */
+    margin-left: 5vw;
+    margin-right: 25vw;
+}
+.instimg{
+    display: flex;
+}
+.instimg2{
+    background-image: url("Air\ Force.jpg");
+    background-size: cover;
+    height:28vw;
+    width: 30vw;
+    /* margin-left: 25vw; */
+}
+.instimg1{
+    background-image: url("fighter\ plane.jpg");
+     background-size: cover;
+    height:28vw;
+    width: 44vw;
+    margin-left: 6vw;
+}
+.table_life{
+    text-align: end;
+    margin-right: 2vw;
+    
+}
+.maincontent_life{
+    /* letter-spacing: px; */
+}
