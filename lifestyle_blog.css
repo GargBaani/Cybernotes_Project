@@ -1,3 +1,4 @@
+*{font-style: poppins,sans-serif;}
 .lifestyle_body{
     width: 100%;
     height: 55vh;
@@ -52,33 +53,136 @@
     bottom:3.5vw;
     padding-top: 0.3vw;
 }
-.mainbody_life{
-    /* border: 2px solid black; */
-    margin-left: 5vw;
-    margin-right: 25vw;
-}
-.instimg{
+.baani_life23{
     display: flex;
-}
-.instimg2{
-    background-image: url("Air\ Force.jpg");
-    background-size: cover;
-    height:28vw;
-    width: 30vw;
-    /* margin-left: 25vw; */
-}
-.instimg1{
-    background-image: url("fighter\ plane.jpg");
-     background-size: cover;
-    height:28vw;
-    width: 44vw;
-    margin-left: 6vw;
-}
-.table_life{
-    text-align: end;
-    margin-right: 2vw;
+    width: 100%;
+    height: 810vh;
     
 }
-.maincontent_life{
-    /* letter-spacing: px; */
+.starting23{
+    width: 25%;
+    height: auto;
+    background-color: aqua;
+}
+.maincontent23{
+    width: 50%;
+   background-color: white;
+    height:auto;
+}
+.ending23{
+    width: 25%;
+   background-color: blue;
+    height: auto;
+}
+.piclife{
+    display: flex;
+}
+.pic1{
+    background-image: url("fighter\ plane.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vw;
+    width: 32vw;
+    margin-top: 5vw;
+
+}
+.pic2{
+    background-image: url("Air\ Force.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 26vw;
+    width: 28vw
+
+}
+.intro_23{
+    line-break: loose;
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+}
+.head23{
+    margin-left: 3vw;
+    margin-right: 2vw;
+    margin-top: 3vw;
+}
+
+.teamphoto{
+    background-image:url("teamphoto.jpg") ;
+    background-size: cover;
+    width:85%;
+    height: 30vw;
+    margin-top: 7vw;
+    margin-left: 3.5vw;
+    border: 2px solid black;
+}
+.teamcontent{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+}
+.team_life23 h1{
+    margin-top: 3vw;
+margin-left: 3vw;
+/* font-size: 20px; */
+}
+.sub1{
+    margin-top: 2vw;
+    /* margin-bottom: 2vvw; */
+}
+.day1{
+    margin-top: 2vw;
+}
+.teamhead2{
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 2vw;
+}
+.teamcon2{
+    margin-top: 2vw;
+}
+
+.day3 h1{
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.teamphoto2{
+    background-image:url("gto.jpg") ;
+    background-size: cover;
+    width:90%;
+    height: 30vw;
+    margin-top: 7vw;
+    margin-left: 2.5vw;
+    /* border: 2px solid black; */
+}
+.snakrace{
+    margin-left: 3vw;
+    margin-top: 2vw;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 2vw;
+}
+.srace{
+    margin-right: 2vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.img1pro{
+    
+    background-image: url("https://defencedirecteducation.com/wp-content/uploads/2022/01/ssb-gto-e1641643471584.jpg");
+    background-size: cover;
+    width:90%;
+    height: 30vw;
+    margin-top: 7vw;
+    margin-left: 2.5vw;
+}
+.img2pro{
+    
+    background-image: url("gto3.jpg");
+    background-size: cover;
+    width:70%;
+    height: 40vw;
+    margin-top: 7vw;
+    margin-left: 6vw;
 }
