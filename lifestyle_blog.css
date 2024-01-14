@@ -1,4 +1,4 @@
-*{font-style: poppins,sans-serif;}
+*{font-family: 'Poppins',sans-serif;}
 .lifestyle_body{
     width: 100%;
     height: 50vh;
@@ -56,21 +56,25 @@
 .baani_life23{
     display: flex;
     width: 100%;
-    height: 890vh;   
+   
 }
 .starting23{
     width: 25%;
-    height: 890vh;
+    height:1060vh;
     background-color: #ede6ce;
 }
 .maincontent23{
     width: 50%;
+    margin: 5vh;
    background-color: white;
     height:800vh;
+    font-family: 'poppins',sans-serif;
+   font-size: 1.2em;
+    
 }
 .ending23{
     width: 25%;
-    height: 890vh;
+    height: 1060vh;
 }
 .piclife{
     display: flex;
@@ -96,35 +100,37 @@
     line-break: loose;
     display: flex;
     justify-content: center;
+    
    
     margin-top: 2vw;
 }
 .introcon23{
-    margin-left: 2vw;
-    margin-right:2vw}
+   
+    text-align: justify;
+}
 .head23{
-    margin-left: 3vw;
-    margin-right: 2vw;
+  
     margin-top: 3vw;
 }
 
 .teamphoto{
     background-image:url("teamphoto.jpg") ;
     background-size: cover;
-    width:85%;
+    width:100%;
     height: 30vw;
     margin-top: 7vw;
-    margin-left: 3.5vw;
+    
     border: 2px solid black;
 }
 .teamcontent{
-    margin-left: 3vw;
-    margin-right: 3vw;
+  
+    
     margin-top: 2vw;
+    text-align: justify;
 }
 .team_life23 h1{
     margin-top: 3vw;
-margin-left: 3vw;
+
 /* font-size: 20px; */
 }
 .sub1{
@@ -133,6 +139,7 @@ margin-left: 3vw;
 }
 .day1{
     margin-top: 2vw;
+    text-align: justify;
 }
 .teamhead2{
     font-weight: 200;
@@ -147,41 +154,42 @@ margin-left: 3vw;
 
 .teamcon2{
     margin-top: 2vw;
+    text-align: justify;
 }
 
 .day3 h1{
-    margin-left: 3vw;
+   
     margin-top: 2vw;
 }
 .teamphoto2{
     background-image:url("gto.jpg") ;
     background-size: cover;
-    width:90%;
+    width:100%;
     height: 30vw;
     margin-top: 7vw;
-    margin-left: 2.5vw;
+    
     /* border: 2px solid black; */
 }
 .snakrace{
-    margin-left: 3vw;
+   
     margin-top: 2vw;
     font-weight: 200;
     font-size: 25px;
     margin-top: 2vw;
 }
 .srace{
-    margin-right: 2vw;
-    margin-left: 3vw;
+   
     margin-top: 2vw;
+    text-align: justify;
 }
 .img1pro{
     
     background-image: url("https://defencedirecteducation.com/wp-content/uploads/2022/01/ssb-gto-e1641643471584.jpg");
     background-size: cover;
-    width:90%;
+    width:100%;
     height: 30vw;
     margin-top: 7vw;
-    margin-left: 2.5vw;
+  
 }
 .img2pro{
     
@@ -190,7 +198,7 @@ margin-left: 3vw;
     width:40%;
     height: 20vw;
     margin-top: 7vw;
-    margin-left: 2vw;
+    
 }
 .img3pro{
     background-image: url("io3.jpg");
@@ -199,64 +207,67 @@ margin-left: 3vw;
     width:50%;
     height: 20vw;
     position: relative;
-    top: -18vw;
+    top: -18.7vw;
     left: 22.5vw;
 }
 .con4{
     margin-top: -15vw;
-    margin-left: 3vw;
+   
 }
 .photo23{
-    margin-left: 3vw;
+    
     margin-top: 2vw;
+    text-align: justify;
 }
 .con5{
-    margin-left: 3vw;
+   
     margin-top: 2vw;
+    text-align: justify;
 }
 .img4pro{
     
     background-image: url("myimg.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    width:90%;
-    height: 30vw;
+    width:100%;
+    height: 40vw;
     margin-top: 3vw;
-    margin-left: 2vw;
+    
 }
 .photo33{
     margin-top: 2vw;
-    margin-left: 3vw;
-    margin-right: 2vw;
+    
+    text-align: justify;
+    font-family: 'Poppins',sans-serif;
 }
 .img5pro{
     
     background-image: url("https://www.ssbcrack.com/wp-content/uploads/2016/03/SSB-Conference.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    width:90%;
+    width:100%;
     height: 25vw;
     margin-top: 3vw;
-    margin-left: 2vw;
+   
 }
 .introcon23{
     margin-top: 2vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    
 }
 
 #contentright{
     width: 25vw;
     border: 1px;
-    height: 1000vh;
+    height: 1060vh;
     
 }
 #toc{
     position: sticky;
     top:15vh;
-    bottom: 30vh;
+   
     margin-left: 5vh;
     margin-top: 5vh;
+    
 }
 #toc a{
     text-decoration: none;
@@ -269,13 +280,7 @@ margin-left: 3vw;
     display: flex;
     align-items: center;
 }
-#read{
-    position: sticky;
-    top:15vh;
-    margin-left: 5vh;
-    margin-top: 5vh;
-    
-}
+
 
 .readmore{
     height: 10vw;
@@ -299,6 +304,8 @@ margin-left: 3vw;
     height: 70vh;
     background-color:rgba(255,165,0,0.8);
     margin-top: 20vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
 .username18{
     margin-top: 8vh;
@@ -418,7 +425,7 @@ margin-left: 3vw;
 }
 #footer{
     position: relative;
-    bottom: -130vh;
+    bottom: -25vh;
 }
 #fcontainer18{
     
