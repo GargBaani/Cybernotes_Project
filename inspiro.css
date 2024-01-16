@@ -106,18 +106,24 @@
 }
 #searchbox{
     width: fit-content;
-    padding: 1vh;
-    background-color:#000;
-    outline: none !important;
-    border: 2px solid white;
-    border-radius: 5vh;
-    
-}
-#searchbox:hover{
-    border:2.5px solid #3586ff;
-    color: #3586ff;
-
-}
+      background-color:#000;
+      outline: none;
+      border: 2px solid white;
+      border-radius: 5vh;
+      padding:4px;
+      display:flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+  }
+  #searchbutton{
+    padding-top: .5vw;
+  }
+  
+  #searchbox:hover{
+      border:2.5px solid #3586ff;
+      color: #3586ff;
+  }
 ::placeholder{
     color: white;
     font-size: 1.2vw;
@@ -395,7 +401,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border-radius:50%;
     
 
 }
@@ -410,11 +416,19 @@ footer{
 padding: 1.5vw;
 margin-left:15vw;
    border-radius: 50%;
+   height:2vh;
+   width:2vh;
    
 }
 #gototop a:hover{
     border:2px solid black;
     color: #3586ff;
+}
+#gototop i{
+    transform:scale(1.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 .waves{
     position: absolute;
@@ -1523,58 +1537,74 @@ margin-bottom:15px;
                 }
                 .edupart1{
                     display: flex;
+                    margin-left: 5vh;
+                   margin-right: 15vh;
                 }
-                .edu {
-                font-size: 60px;
-                position: relative;
-                top: 5vw;
-                left: 9.2vw;
-                font-style: italic;
-                font-weight: bold;
-                font-family: Arial, Helvetica, sans-serif;
+                .edu a{
+                    font-size: 18px;
+                    font-style: italic;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-decoration: none;
+                    color:black;
+                    font-weight: normal;
                 }
-                .see{
+                h1.edu{
+                    margin-left: 10vw;
+                    margin-top: 4vw;
+                    font-size: 50px;
+                    font-style: italic;
+                }
+                /* .see{
                     position: relative;
                     top: 7.8vw;
                     left: 9.2vw;
                     font-size: 20px;
                     font-style: italic;
                     font-family: Arial, Helvetica, sans-serif;
-                }
+                } */
                 .edu_pic1{
                     background-image: url("https://wallpapercave.com/wp/wp2003357.jpg");
                     background-size: cover;
                     height: 40vh;
                     width: 35vw;
-                    position: relative;
-                    left: 8vw;
-                    top: 8vw;
+                    margin-left: 15vh;
                     border-radius: 15px;
+                    transition: all 0.2s ease 0s;
+                    margin-bottom: 2vh;
+                    margin-top: 2vh;
                     transition: all 0.2s ease 0s;
                 }
                 .edu_pic2{
                     background-image: url("https://www.businesscoachchicago.com/wp-content/uploads/2018/07/education.jpg");
                     background-size: cover;
-                    height:32vh;
+                    height:40vh;
                     width: 35vw;
-                    position: relative;
-                    border-radius: 10px;
-                    left: 8vw;
-                    top: 10vw;
+                   border-radius: 15px;
+                    transition: all 0.2s ease 0s;
+                    margin-left: 15vh;
                     transition: all 0.2s ease 0s;
                 }
-                
                 .edu_pic3{
                     background-image: url("https://www.kingskyfa.com/wp-content/uploads/2020/10/graduation-hat-on-stack-of-books-1024x683.jpg");
-                    background-size: contain;
+                    background-size: cover;
                     background-repeat: no-repeat;
-                    height: 80vh;
-                    width: 100vh; 
-                    position: relative;
-                    left: 10vw;
-                    /* top: 0.5vw; */
+                    height: 58vh;
+                    width: 85vh; 
+                   margin-left: 2vh;
+                   margin-top: 2vh;
                     border-radius: 15px;
                     transition: all 0.2s ease 0s;
+                }
+                #eduonetexttwo{
+                    margin-left: 2vw;
+                    margin-top: 4vh;
+                    border-radius: 2vh;
+                    padding: 0.2vw;
+                    background-color: transparent;
+                    border: 2px solid white;
+                    width:fit-content;
+                    color:white;
+                    font-family: 'Poppins', sans-serif;
                 }
                 .edu_pic1:hover{
                     transform: scale(1.05);
@@ -1588,27 +1618,27 @@ margin-bottom:15px;
                 .quote23{
                     background-color: white;
                     max-width: fit-content;
-                    position: relative;
-                    left: 38vw;
+                    margin: 2vh;
                     font-size: 22px;
                     z-index: 100;
-                    top: -15px;
+                    display:inline-block;
                 }
 
-               #edu_content23 {
-                /* background-color:#f6f4f1 ; */
-               width:49vw;
-                height: 15vh;
-                position: relative;
-                left: -0.2vw;
-                top: 35vw;
-                align-content: end;
-                font-size: 20px;
-                border-radius: 15px;
-                background:linear-gradient(-360deg,#f8e3bf,white);
-
-               }
-                
+                #edu_content23 {
+                    width:85vh;
+                    height: 22vh;
+                    overflow: hidden;
+                    align-content: end;
+                    font-size: 20px;
+                    border-radius: 15px;
+                    background:rgb(232, 186, 113);
+                    margin-left: 2vh;
+                       margin-top: 2vh;
+                       transition: all 0.2s ease 0s;
+                    }
+                    #edu_content23:hover {
+                    transform: scale(1.03);
+                    }
 
                /* baani finance */
 
