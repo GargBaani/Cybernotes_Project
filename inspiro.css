@@ -189,15 +189,15 @@
 
 .travel {
     border: 2px solid transparent;
-    height: 38vh;
-    min-width: 50vh;
+    height: contain;
+    min-width: 47.5vh;
     padding: 1vh;
     border-radius: 10px;
     background-color: white;
     
     margin-right: 15px;
     scroll-snap-align: start;
-    animation: scroll 10s linear infinite;
+    animation: scroll 12s linear infinite;
     animation-play-state: running;
     transition: transform 0.3s ease; 
     font-weight: 501;
@@ -396,7 +396,7 @@ footer{
 }
 #gototop{ 
    
-    width:15%;
+    width:20vh;
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -1678,7 +1678,7 @@ margin-bottom:15px;
                 font-family:'Poppins', sans-serif;
             }
             .financepic1{
-                background-image: url("https://th.bing.com/th/id/R.addb95fd8c23d2c2bfc51969f89ea840?rik=6c2F5LFpCWTUXA&riu=http%3a%2f%2fwww.symbioconsults.com%2fwp-content%2fuploads%2f2016%2f08%2fqualitybasics.jpg&ehk=mzgDbJpjZiR5I7beMjwENpZO7RtRGHi%2fJz0VRWXlFH0%3d&risl=&pid=ImgRaw&r=0");
+                background-image: url("globe.jpg");
                 background-size: cover;
                 /* background-repeat: no-repeat; */
                 height: 40vw;
@@ -1686,7 +1686,6 @@ margin-bottom:15px;
                 position: relative;
                  left: 8vw;
                 top: 5vw;  
-                border: 2px solid white;
                 border-radius: 25px;
                 transition: all 0.2s ease 0s;
             }
