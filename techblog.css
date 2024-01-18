@@ -1,5 +1,5 @@
 #navbarextend{
-    height: 60vh;
+    height: 55vh;
     background-color: black;
     width: 100vw;
 }
@@ -73,12 +73,12 @@
     width: 25vw;
     border: 1px;
     background-color: beige;
-    height: 750vh;
+    height: 850vh;
 }
 #contentright{
     width: 25vw;
     border: 1px;
-    height: 750vh;
+    height: 850vh;
     
 }
 #contentmain{
@@ -89,7 +89,7 @@
     margin-top: 10vh;
     text-align: justify;
     overflow: hidden;
-    height: 700vh;
+    height: 750vh;
     font-family: 'Poppins', sans-serif;
 }
 #toc{
@@ -126,11 +126,8 @@
     text-align: center;
     
 }
-.feedback_body18 form{
-    height: 55vh;
-}
 .feedback18{
-    height: 55vh;
+    height: 100vh;
     background-color:rgba(255,165,0,0.8);
     margin-top: 20vh;
 }
@@ -192,14 +189,16 @@
 .Comments18 ::placeholder{color:black;
     font-family: 'Poppins', sans-serif;}
 
-.subbut18{
-    position: relative;
-    left: 24vw ;
-    top: 4.5vw;
-    height: 3vw;
-    width: 5.4vw;
-    font-size: 18px;
-}
+    .subbut18{
+        position: relative;
+        left: 24vw ;
+        top: 4.5vw;
+        height: 3vw;
+        width: 5.4vw;
+        font-size: 18px;
+    
+    }
+
 .subbut18:hover{
     background-color: #009688;
 }
@@ -227,7 +226,7 @@
     
     height: 80%;
     background-color:black;
-    background-image: url("1_1.png");
+    background-image: url("1_1 (1).png");
     background-size: cover;
     
 }
@@ -266,7 +265,7 @@
 }
 #footer{
     position: relative;
-    bottom: -230vh;
+    bottom: -280vh;
 }
 .waves18{
     position: absolute;
